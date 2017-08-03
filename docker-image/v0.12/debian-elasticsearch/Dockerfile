@@ -20,6 +20,7 @@ RUN buildDeps="sudo make gcc g++ libc-dev ruby-dev libffi-dev" \
     && gem install fluent-plugin-rewrite-tag-filter \
     && gem install fluent-plugin-prometheus \
     && gem install fluent-plugin-elasticsearch \
+    && gem install fluent-plugin-aws-elasticsearch-service \
     && gem install fluent-plugin-kubernetes_metadata_filter \
     && gem install ffi \
     && gem install fluent-plugin-systemd -v 0.0.8 \

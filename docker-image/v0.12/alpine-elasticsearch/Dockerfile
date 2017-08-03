@@ -18,6 +18,7 @@ RUN set -ex \
     && gem install fluent-plugin-rewrite-tag-filter \
     && gem install fluent-plugin-prometheus \
     && gem install fluent-plugin-elasticsearch \
+    && gem install fluent-plugin-aws-elasticsearch-service \
     && gem install fluent-plugin-kubernetes_metadata_filter \
     && apk del .build-deps \
     && gem sources --clear-all \
